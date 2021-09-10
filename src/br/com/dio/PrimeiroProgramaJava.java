@@ -9,9 +9,9 @@ public class PrimeiroProgramaJava {
 
         Livro livro1 = new Livro("O problema dos 3 corpos", 300);
         System.out.println(livro1);
-        /*int a = 5;
-        int b = 3;
-        System.out.println("Hello World!! " + (a+b));*/
+        /*
+         * int a = 5; int b = 3; System.out.println("Hello World!! " + (a+b));
+         */
     }
 }
 
@@ -42,9 +42,6 @@ class Livro {
 
     @Override
     public String toString() {
-        return "Livro{" +
-                "nome='" + nome + '\'' +
-                ", numPaginas=" + numPaginas +
-                '}';
+        return "Livro{" + "nome='" + nome + '\'' + ", numPaginas=" + numPaginas + '}';
     }
 }
