@@ -17,10 +17,10 @@ public class Calculadora {
         int multiplicar = multiplicar(a, b);
         int dividir = dividir(a, b);
 
-        System.out.println("somar: " + somar);
-        System.out.println("sub: " + subtrair);
-        System.out.println("multi: " + multiplicar);
-        System.out.println("div: " + dividir);
+        System.out.println("Soma: " + somar);
+        System.out.println("Subtração: " + subtrair);
+        System.out.println("Multiplicação: " + multiplicar);
+        System.out.println("Divisão: " + dividir);
     }
 
     public static int somar(int a, int b) {
